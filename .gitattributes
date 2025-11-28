@@ -1,2 +1,14 @@
-/mvnw text eol=lf
-*.cmd text eol=crlf
+# Force GitHub Linguist to detect major languages
+*.java linguist-detectable=true
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
+*.ts linguist-detectable=true
+*.tsx linguist-detectable=true
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+
+# Exclude build & dependency folders from language analysis
+target/* linguist-vendored
+node_modules/* linguist-vendored
+build/* linguist-vendored
+dist/* linguist-vendored
