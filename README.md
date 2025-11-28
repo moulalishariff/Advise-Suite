@@ -88,26 +88,26 @@ npm install
 npm start
 ```
 
-🔢 Beta ID Feature
+### 🔢 Beta ID Feature
 - Automatically generates a unique Beta ID using:
 - First 4 letters of client's name
 - Last 4 digits of client ID
 
-- Example:
-- MOUL1234
+Example:
+MOUL1234
 
-📌 Project Highlights
+### 📌 Project Highlights
 - Smart analytics for portfolio decisions
 - Automated rebalance recommendations
 - Clean UI & responsive dashboard
 - Secure, scalable, and modular system
 
-🤝 Contributions
+### 🤝 Contributions
 Pull requests are welcome!
 
-🧑‍💻 Developer
+### 🧑‍💻 Developer
 Mohammed Moulali Shariff
 
-Java Developer | Full Stack Developer | Data Science Enthusiast
+## Java Developer | Full Stack Developer | Data Science Enthusiast
 
-⭐ If you like this project, give it a star on GitHub!
+## ⭐ If you like this project, give it a star on GitHub!
