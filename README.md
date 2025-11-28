@@ -1,64 +1,62 @@
-🌟 Advice Suite — Financial Portfolio Management System
+# 🌟 Advice Suite — Financial Portfolio Management System
 
-A powerful, web-based application that helps financial consultants manage, analyze, and rebalance client investment portfolios with ease. Built using Spring Boot, React.js, and MySQL, Advice Suite delivers secure, smart, and data-driven financial insights.
+A powerful, web-based application that helps financial consultants manage, analyze, and rebalance client investment portfolios. Built using **Spring Boot**, **React.js**, and **MySQL**, Advice Suite delivers secure, smart, and data-driven financial insights.
 
+---
 
-🎯 Features
+## 🎯 Features
 
-🔐 Secure Authentication (JWT)
+### 🔐 Secure Authentication (JWT)
+- Token-based authentication  
+- Role-based access  
 
-User login with secure token-based authentication
-Role-based access for consultants
+### 📊 Portfolio Management
+- Create and manage client portfolios  
+- Link external investment accounts  
+- View asset distribution & risk metrics  
 
-📊 Portfolio Management
+### 📈 Analytics Dashboard
+- Asset allocation charts  
+- Risk analysis  
+- Diversification & performance trends  
 
-Create, update, and track multiple client portfolios
-Link external investment accounts
-View asset distribution & risk metrics
+### 🔄 Manual Rebalancing
+- Rebalance according to client goals  
+- Threshold-based deviation alerts  
+- Auto suggestions for rebalancing  
 
-📈 Analytics Dashboard
+### 🔔 Notifications & Alerts
+- Portfolio changes  
+- Market impact alerts  
+- Performance reminders  
 
-Asset allocation charts
-Risk exposure analysis
-Diversification and performance trends
+### 📜 Historical Reports
+- Downloadable history  
+- Long-term performance overview  
 
-🔄 Manual Rebalancing
+---
 
-Rebalance portfolios according to investment goals
-Threshold-based alerts for allocation deviation
-Auto-suggestion for rebalance strategies
+## 🛠 Tech Stack
 
-🔔 Notifications & Alerts
+### **Backend**
+- 🌐 Spring Boot  
+- 🗄 Spring Data JPA  
+- 🔐 JWT Authentication  
+- 🧪 JUnit & Mockito  
 
-Portfolio changes
-Performance signals
-Market-impact alerts
+### **Frontend**
+- ⚛️ React.js  
+- 🎨 TailwindCSS / CSS  
+- 🔗 Axios  
 
-📜 Historical Reports
+### **Database**
+- 🛢 MySQL  
 
-Downloadable performance history
-Long-term trend analysis
+### **Tools**
+- 🧰 Postman  
+- 🧑‍💻 Eclipse / IntelliJ / VS Code  
 
-🛠 Tech Stack
-
-Backend
-🌐 Spring Boot
-🗄 Spring Data JPA
-🔐 JWT Authentication
-🧪 JUnit & Mockito
-
-Frontend
-⚛️ React.js
-🎨 Tailwind / CSS
-🔗 Axios for API communication
-
-Database
-🛢 MySQL
-
-Tools
-🧰 Postman
-🧪 JUnit
-🧑‍💻 Eclipse / IntelliJ / VS Code
+---
 
 📁 Project Structure
 
