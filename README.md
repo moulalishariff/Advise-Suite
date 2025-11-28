@@ -58,8 +58,9 @@ A powerful, web-based application that helps financial consultants manage, analy
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
+```plaintext
 AdviceSuite/
 ├── backend/
 │   ├── src/main/java/... (Controllers, Services, Repositories)
@@ -70,50 +71,58 @@ AdviceSuite/
     ├── src/pages
     ├── public/
     └── package.json
-
+```
 
 🚀 How to Run the Project
 ▶️ Backend (Spring Boot)
 cd backend
 mvn spring-boot:run
 
-
 ▶️ Frontend (React)
 cd frontend
 npm install
 npm start
 
-
 🔢 Beta ID Feature
 
-The system auto-generates a Beta ID using:
-✔ First 4 letters of user's name
-✔ Last 4 digits of client ID
+Automatically generates a unique Beta ID using:
+
+First 4 letters of client's name
+
+Last 4 digits of client ID
 
 Example:
-SHAR1234
-
+MOUL1234
 
 📌 Project Highlights
 
-Improves decision-making with analytics
+Smart analytics for portfolio decisions
 
-Simplifies portfolio rebalancing
+Automated rebalance recommendations
 
-Enhances productivity for consultants
+Clean UI & responsive dashboard
 
-Clean UI + strong backend architecture
-
+Secure, scalable, and modular system
 
 🤝 Contributions
 
 Pull requests are welcome!
 
-
 🧑‍💻 Developer
 
 Mohammed Moulali Shariff
-Java Developer | AI & Data Science | Full Stack Enthusiast
+Java Developer | Full Stack Developer | Data Science Enthusiast
+
+⭐ If you like this project, give it a star on GitHub!
 
 
-⭐ If you like this project, don’t forget to give it a star on GitHub!
+---
+
+If you want, I can also add:
+
+🎖️ Tech badges (Java, Spring Boot, React, MySQL)  
+📸 Screenshot placeholders  
+🧱 Architecture diagram  
+📌 API Documentation section  
+
+Just tell me!
