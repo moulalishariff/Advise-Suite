@@ -1,0 +1,59 @@
+/* Client Access Container */
+.client-access-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.client-access-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.client-access-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-access-form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.client-access-form button {
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.client-access-form button:hover {
+  background-color: #0052a3;
+}
+
+.client-access-container p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.client-access-container p.error-message {
+  color: #e74c3c;
+}
+
+.client-access-container p.success-message {
+  color: #2ecc71;
+}

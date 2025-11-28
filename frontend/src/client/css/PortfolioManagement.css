@@ -1,0 +1,45 @@
+/* PortfolioManagement.css */
+/* Add styles specific to portfolio management */
+.portfolio-summary {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-summary h3 {
+    color: #007bff;
+  }
+  
+  .portfolio-summary .account-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+  }
+  
+  .portfolio-summary .account-item:hover {
+    background-color: #f1f3f5;
+  }
+  .center-header {
+    text-align: center;
+  }
+  .modal-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .download-pdf-btn,
+  .send-pdf-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .send-pdf-btn {
+    background-color: #28a745;
+  }
+  

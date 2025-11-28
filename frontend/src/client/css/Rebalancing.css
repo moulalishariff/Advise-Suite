@@ -1,0 +1,89 @@
+.rebalancing-tab {
+    padding: 20px;
+    background-color: #f8fafd;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .rebalancing-tab h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+ 
+  .form-row select,input {
+    padding: 12px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    /* background-color: #fff; */
+    /* vertical-align: middle; */
+    /* height: 38px; */
+  }
+  .form-row input {
+    padding: 12px 12px;
+    font-size: 15px;
+    vertical-align: middle;
+    height: 25px;
+  }
+  .form-row select,
+  .form-row input {
+    max-width: 290px;
+  }
+ 
+  .form-row button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    white-space: nowrap;
+  }
+ 
+  .form-row button:hover {
+    background-color: #0056b3;
+  }
+  
+  .accounts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .accounts-table th,
+  .accounts-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accounts-table th {
+    background-color: #f0f4f8;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .accounts-table td {
+    background-color: #ffffff;
+  }
+  
+  .totals-summary {
+    margin-top: 20px;
+    background-color: #f3f7fa;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #dce6ee;
+  }
+  
+  .totals-summary h4 {
+    margin: 5px 0;
+    color: #333;
+  }
+  

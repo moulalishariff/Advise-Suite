@@ -1,0 +1,64 @@
+/* PortfolioManagement.css */
+/* Add styles specific to portfolio management */
+.portfolio-summary {
+  background-color: #e9ecef;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.portfolio-summary h3 {
+  color: #007bff;
+}
+
+.portfolio-summary .account-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.portfolio-summary .account-item:hover {
+  background-color: #f1f3f5;
+}
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-area, .print-area * {
+    visibility: visible;
+  }
+
+  .modal-content {
+    position: static !important;
+    transform: none !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
+.custom-legend {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 12px;
+  justify-content: flex-start;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.center-header {
+  text-align: center;
+  font-size: large;
+}

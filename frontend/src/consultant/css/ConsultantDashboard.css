@@ -1,0 +1,61 @@
+/* ConsultantDashboard.css */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a9cdf1;
+    padding: 10px 20px;
+    border-bottom: 1px solid #b0d4f3;
+  }
+  .dashboard-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dashboard-header h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .dashboard-tabs {
+    display: flex;
+    background-color: #e9ecef;
+    padding: 10px 20px;
+  }
+  
+  .dashboard-tabs button {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dashboard-tabs button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .dashboard-tabs .active-tab {
+    background-color: #007bff;
+    color: white;
+    border-bottom: 2px solid #0056b3;
+  }
+  
+  .dashboard-content {
+    padding: 20px;
+    flex: 1;
+    overflow-y: auto;
+    background-color: #ffffff;
+  }
+  
+  .dashboard-content h2 {
+    margin-top: 0;
+    color: #007bff;
+  }
+  

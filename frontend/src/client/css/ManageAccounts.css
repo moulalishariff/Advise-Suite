@@ -1,0 +1,215 @@
+/* General Styles */
+.account-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a9cdf1;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.account-header > div button:first-child {
+  margin-right: 15px; /* Increase spacing between the two buttons */
+}
+
+.account-header h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 15px;
+  margin: 20px 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-field input,
+.form-field select{
+  display: flex;
+  height: 44px;
+  width: 220px;
+  font-size: 16px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.form-row button,
+.create-account-form button {
+  height: 40px; 
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.form-row input:focus,
+.form-row select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+input[type="text"],
+select[type="number"] {
+  height: 40px;
+  /* min-width: 200px; */
+  padding: 0 10px;
+  font-size: 16px;
+  /* line-height: 1.5; */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  appearance: none;
+}
+/* Table Styles */
+.accounts-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  margin-top: 30px;
+}
+
+.accounts-table th,
+.accounts-table td {
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.accounts-table th {
+  background-color: #a9cdf1;
+  color: #212529;
+}
+
+.accounts-table tr:hover {
+  background-color: #f1f3f5;
+}
+
+.accounts-table td button {
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accounts-table td button:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+/* Account Actions (Edit/Delete) */
+.account-actions button {
+  margin-right: 10px;
+}
+
+.account-actions .edit-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.account-actions .delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.account-actions .edit-btn:hover {
+  background-color: #218838;
+}
+
+.account-actions .delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Transaction Fields */
+.transaction-fields {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.transaction-fields select,
+.transaction-fields input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.transaction-fields input:focus,
+.transaction-fields select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.transaction-fields button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.transaction-fields button:hover {
+  background-color: #0056b3;
+}
+
+/* Create Account Form */
+.create-account-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.create-account-form input,
+.create-account-form select {
+  width: 250px;
+  margin-right: 15px;
+}
+
+.create-account-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.create-account-form button:hover {
+  background-color: #0056b3;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+.accounts-table td button {
+  margin-right: 10px;
+  vertical-align: middle;
+}

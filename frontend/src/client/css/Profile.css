@@ -1,0 +1,63 @@
+/* Profile.css */
+.profile-section {
+    position: relative;
+  }
+  
+  .profile-icon {
+    background-color: #e23030;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-dropdown {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 100;
+    text-align: center;
+    min-width: 160px;
+    color: #212529;
+  }
+  
+  .profile-dropdown p {
+    margin: 0 0 10px;
+    color: #212529;
+  }
+  
+  .logout-btn,
+  .manage-accounts-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-btn {
+    background-color: #dc3545;
+  }
+  
+  .logout-btn:hover {
+    background-color: #bd2130;
+  }
+  
+  .manage-accounts-btn:hover {
+    background-color: #0056b3;
+  }
+  
