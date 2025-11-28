@@ -71,20 +71,21 @@ AdviceSuite/
     ├── src/pages
     ├── public/
     └── package.json
-```
 
-🚀 How to Run the Project
-▶️ Backend (Spring Boot)
+
+## 🚀 How to Run the Project
+
+### ▶️ Backend (Spring Boot)
+```bash
 cd backend
 mvn spring-boot:run
-
 ▶️ Frontend (React)
+bash
+Copy code
 cd frontend
 npm install
 npm start
-
 🔢 Beta ID Feature
-
 Automatically generates a unique Beta ID using:
 
 First 4 letters of client's name
@@ -95,7 +96,6 @@ Example:
 MOUL1234
 
 📌 Project Highlights
-
 Smart analytics for portfolio decisions
 
 Automated rebalance recommendations
@@ -105,24 +105,17 @@ Clean UI & responsive dashboard
 Secure, scalable, and modular system
 
 🤝 Contributions
-
 Pull requests are welcome!
 
 🧑‍💻 Developer
-
 Mohammed Moulali Shariff
 Java Developer | Full Stack Developer | Data Science Enthusiast
 
 ⭐ If you like this project, give it a star on GitHub!
 
+yaml
+Copy code
 
 ---
 
-If you want, I can also add:
-
-🎖️ Tech badges (Java, Spring Boot, React, MySQL)  
-📸 Screenshot placeholders  
-🧱 Architecture diagram  
-📌 API Documentation section  
-
-Just tell me!
+If you want, I can merge this into your **full README** automatically — just say **"merge into full readme"**.
