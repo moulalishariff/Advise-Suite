@@ -89,23 +89,18 @@ npm start
 ```
 
 🔢 Beta ID Feature
-Automatically generates a unique Beta ID using:
+- Automatically generates a unique Beta ID using:
+- First 4 letters of client's name
+- Last 4 digits of client ID
 
-First 4 letters of client's name
-
-Last 4 digits of client ID
-
-Example:
-MOUL1234
+- Example:
+- MOUL1234
 
 📌 Project Highlights
-Smart analytics for portfolio decisions
-
-Automated rebalance recommendations
-
-Clean UI & responsive dashboard
-
-Secure, scalable, and modular system
+- Smart analytics for portfolio decisions
+- Automated rebalance recommendations
+- Clean UI & responsive dashboard
+- Secure, scalable, and modular system
 
 🤝 Contributions
 Pull requests are welcome!
