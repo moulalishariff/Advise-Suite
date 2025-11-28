@@ -72,12 +72,15 @@ AdviceSuite/
     ├── public/
     └── package.json
 ```
+---
 
 ## 🚀 How to Run the Project
 
 ### ▶️ Backend (Spring Boot)
+```bash
 cd backend
 mvn spring-boot:run
+
 
 ▶️ Frontend (React)
 cd frontend
