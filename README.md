@@ -77,7 +77,7 @@ AdviceSuite/
 ## 🚀 How to Run the Project
 
 ```bash
-### ▶️ Backend (Spring Boot)
+▶️ Backend (Spring Boot)
 cd backend
 mvn spring-boot:run
 
